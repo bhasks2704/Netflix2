@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Martel Sans', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: relative;
+    height: 100vh;
+    color: rgb(202, 209, 215);
+    background-image: linear-gradient(0deg, rgba(0,0,0.8) 0,transparent 60%,rgba(0,0,0.8)), url("https://assets.nflxext.com/ffe/siteui/vlv3/5523db5a-e2b2-497f-a88b-61f175c3dbad/eb90437e-a876-47c3-a138-ca27772a4d2a/IN-en-20230306-popsignuptwoweeks-perspective_alpha_website_large.jpg"); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px solid #222;
+
+}
+
+
+.head-containt{
+
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50%, -50%);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  padding-top: 30px;
+  color: white;
+  align-items: center;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+}
+li{
+    list-style: none;
+    padding: 0 20px;
+
+}
+.btn{
+    padding: 5px 25px;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+
+}
+
+section{
+    max-width: 100%;
+    background-color: black;
+    color: aliceblue;
+    border-bottom: 8px solid #222;
+    padding: 75px 45px;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+     flex-basis: 60%;
+    justify-content: center;
+}
+
+.box2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    justify-content: center;
+}
+.box2>img{
+    z-index: 1;
+    max-width: fit-content;
+}
+.box1 >h2{
+    font-size: 50px;
+    font-weight: 400px;
+}
+
+.box1 >h3{
+    font-size: 18px;
+    font-weight: 400px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+footer>p{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
